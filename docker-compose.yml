@@ -15,8 +15,8 @@ services:
     volumes:
       - sqlserver_data:/var/opt/mssql
 
-    networks:
-      - monitoring_shared
+    # networks:
+    #   - monitoring_shared
 
     mem_limit: 1g   # 🔥 IMPORTANT pour ton VPS 4GB
 
